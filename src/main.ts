@@ -9,5 +9,5 @@ const content = document.querySelectorAll<HTMLElement>(
 const controls = document.querySelector<HTMLElement>("[data-ts=slide-controls]")
 
 if (slide && content.length && controls) {
-  const storie = new Storie(slide, Array.from(content), controls, 3000)
+  new Storie(slide, Array.from(content), controls, 3000)
 }
