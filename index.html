@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./src/style.scss">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+  <title>Vite + TS</title>
+</head>
+
+<body>
+  <div id="app">
+    <h1>Slide Storie</h1>
+    <div class="slide" data-ts="slide">
+      <div class="slide-content" data-ts="slide-content">
+        <img src="./src/assets/imagem_1.jpg" class="" alt="imagem 1">
+        <img src="./src/assets/imagem_2.jpg" alt="imagem 2">
+        <img src="./src/assets/imagem_3.jpg" alt="imagem 3">
+        <video playsinline src="./src/assets/video.mp4"></video>
+      </div>
+      <div class="slide-controls" data-ts="slide-controls">
+
+      </div>
+    </div>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>
